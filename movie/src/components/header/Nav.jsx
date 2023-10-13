@@ -58,7 +58,7 @@ const Nav = () => {
                     <img src={logo} alt="" />
                 </div>
 
-                <div className='uppercase duration-500 gap-9 hidden lg:flex'>
+                <div className='uppercase duration-500 gap-9 hidden lg:flex z-50'>
                     <p className='font-bold text-white hover:text-yellow-300 cursor-pointer'>Home</p>
                     <p className='font-bold text-white hover:text-yellow-300 cursor-pointer'>Movie</p>
                     <p className='font-bold text-white hover:text-yellow-300 cursor-pointer'>TV show</p>
